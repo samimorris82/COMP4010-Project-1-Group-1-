@@ -47,8 +47,7 @@ The second dataset is Countries GDP 1960-2020.csv downloaded from Kaggle (Christ
 - It uses annual gross domestic income for that year in USD that were converted from domestic currencies using single year official exchange rates, or an alternative conversion factor if required.
 
 # Reason for Choosing
-- The Olympics is very fun to watch and brings the whole world together through our shared love for sport and competition. We thought it would be interesting to analyse the history of people and countries who have achieve highly in worldwide sports, and compare this with GDP. This will help us uncover trends between datasets and the different column variables in the olympics.csv. ![image](https://github.com/user-attachments/assets/045a510f-bda2-4e07-9152-6fbe290551ad)
-
+The Olympics is very fun to watch and brings the whole world together through our shared love for sport and competition. We thought it would be interesting to analyse the history of people and countries who have achieve highly in worldwide sports, and compare this with GDP. This will help us uncover trends between datasets and the different column variables in the olympics.csv.
 
 # Questions to be answered
 **I.** How have the average age, height, and weight of Olympic athletes changed over the years across different sports or by gender?
