@@ -46,7 +46,7 @@ The second dataset is Countries GDP 1960-2020.csv downloaded from Kaggle (Christ
 - Depreciation (consumption of fixed capital) and transport charges are not considered in GDP calculations.
 - It uses annual gross domestic income for that year in USD that were converted from domestic currencies using single year official exchange rates, or an alternative conversion factor if required.
 
-# Reason for Choosing
+# Reason for Choosing the Datasets
 The Olympics is very fun to watch and brings the whole world together through our shared love for sport and competition. We thought it would be interesting to analyse the history of people and countries who have achieve highly in worldwide sports, and compare this with GDP. This will help us uncover trends between datasets and the different column variables in the olympics.csv.
 
 # Questions to be answered
