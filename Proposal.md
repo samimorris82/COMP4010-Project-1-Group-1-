@@ -33,20 +33,20 @@ For each Olympic participant from 1896 until 2016, the dataset records the ID nu
 ## Countries GDP 1960-2020
 The second dataset is Countries GDP 1960-2020.csv downloaded from Kaggle (Christy, 2022). The description is as follows:
 
-## Provenance: 
+### Provenance: 
 - The dataset is obtained from World Bank national accounts and OECD National Accounts data files.
 
-## Dimensions:
+### Dimensions:
 - 63 columns
 - 120 rows
 
-## Description: 
+### Description: 
 - The dataset contains country/region names, country codes (3 letter code) and Gross Domestic Product (GDP) data for every year from 1960 until 2020 (60-year period). 
 - Gross Domestic Product (GDP) represents the total value added by all resident producers in an economy, measured at purchaser’s prices. It is calculated as the sum of gross value added by all producers, including product taxes, while subtracting any subsidies on products. 
 - Depreciation (consumption of fixed capital) and transport charges are not considered in GDP calculations.
 - It uses annual gross domestic income for that year in USD that were converted from domestic currencies using single year official exchange rates, or an alternative conversion factor if required.
 
-## Reason for Choosing
+# Reason for Choosing
 ##sami is writing this now
 
 # Questions to be answered
