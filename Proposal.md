@@ -7,7 +7,8 @@ One dataset being used is the `olympics.csv`, downloaded from TidyTuesdays (Harm
 - This dataset was scraped and wrangled from [www.sports-reference.com](https://www.sports-reference.com) in May 2018 and includes basic athlete data and medal results from Athens 1896 to Rio 2016.
 
 ### Dimensions
-- **Columns:** 15, **Rows:** 271,116  
+- **Columns:** 15
+- **Rows:** 271,116  
 
 ### Description
 For each Olympic participant from 1896 until 2016, the dataset records the ID number, sex, age, height, weight, team, National Olympic Committee (NOC), games, year, season, city, sport, event, and medals (if won). It accounts for the Winter and Summer Games being held in the same year until they started being staggered from 1994.  
