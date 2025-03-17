@@ -29,6 +29,23 @@ For each Olympic participant from 1896 until 2016, the dataset records the ID nu
 - `sport` – The sport the athlete competed in.
 - `event` – Specific event within that sport (e.g., "Volleyball Men's Volleyball").
 - `medal` – Type of medal won by the athlete (Gold, Silver, Bronze, or NaN if no medal was won).
+
+## Countries GDP 1960-2020
+The second dataset is Countries GDP 1960-2020.csv downloaded from Kaggle (Christy, 2022). The description is as follows:
+
+## Provenance: 
+- The dataset is obtained from World Bank national accounts and OECD National Accounts data files.
+
+## Dimensions:
+- 63 columns
+- 120 rows
+
+## Description: 
+- The dataset contains country/region names, country codes (3 letter code) and Gross Domestic Product (GDP) data for every year from 1960 until 2020 (60-year period). 
+- Gross Domestic Product (GDP) represents the total value added by all resident producers in an economy, measured at purchaser’s prices. It is calculated as the sum of gross value added by all producers, including product taxes, while subtracting any subsidies on products. 
+- Depreciation (consumption of fixed capital) and transport charges are not considered in GDP calculations.
+- It uses annual gross domestic income for that year in USD that were converted from domestic currencies using single year official exchange rates, or an alternative conversion factor if required.
+
 ## Reason for Choosing
 ##sami is writing this now
 
@@ -111,5 +128,14 @@ For each Olympic participant from 1896 until 2016, the dataset records the ID nu
 	5.  **Visualization & Interpretation:**
     
 	    -   Create visualizations (e.g., line plots, bar charts) to illustrate GDP trends around Olympic events clearly.
-    
+
+## References  
+
+Christy, R. (2022, April 8). *Countries GDP 1960-2020*. Kaggle. [https://www.kaggle.com/datasets/rinichristy/countries-gdp-19602020](https://www.kaggle.com/datasets/rinichristy/countries-gdp-19602020)  
+
+Griffin, R. (2018, June 15). *120 years of Olympic history: athletes and results*. Kaggle. [https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results/](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results/)  
+
+Harmon, J. (2021, July 27). *TidyTuesday Olympic Dataset (2021)*. GitHub. [https://github.com/rfordatascience/tidytuesday/blob/main/data/2021/2021-07-27/readme.md](https://github.com/rfordatascience/tidytuesday/blob/main/data/2021/2021-07-27/readme.md)  
+
+Harmon, J. (2024, August 6). *Olympics Athletes and Medals (2024)*. GitHub. [https://github.com/rfordatascience/tidytuesday/blob/main/data/2024/2024-08-06/readme.md#olympicscsv](https://github.com/rfordatascience/tidytuesday/blob/main/data/2024/2024-08-06/readme.md#olympicscsv)  
 
