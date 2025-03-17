@@ -1,6 +1,38 @@
 # Dataset Description
 ## Brief Context
-##sami is writing this now
+# Olympics Dataset Description
+
+## Dataset Source
+One dataset being used is the `olympics.csv`, downloaded from TidyTuesdays (Harmon, 2024). The description is as follows:
+
+## Provenance
+- The data is sourced from **120 years of Olympic history: athletes and results** on Kaggle (Griffin, 2018). Since the Olympics resurfaced in 2024, the dataset is an intentional repeat of the `olympics.csv` uploaded in 2021 (Harmon, 2021).
+- This dataset was scraped and wrangled from [www.sports-reference.com](https://www.sports-reference.com) in May 2018 and includes basic athlete data and medal results from Athens 1896 to Rio 2016.
+
+## Dimensions
+- **Columns:** 15  
+- **Rows:** 271,116  
+
+## Description
+For each Olympic participant from 1896 until 2016, the dataset records the ID number, sex, age, height, weight, team, National Olympic Committee (NOC), games, year, season, city, sport, event, and medals (if won). It accounts for the Winter and Summer Games being held in the same year until they started being staggered from 1994.  
+
+### **Column Descriptions:**
+- `id` – Unique identifier number for each athlete.
+- `name` – Full name of the athlete.
+- `sex` – "M" for male, "F" for female.
+- `age` – Athlete's age at the time of competition.
+- `height` – Height in centimetres.
+- `weight` – Weight in kilograms.
+- `team` – Name of the country the athlete is representing.
+- `noc` – Three-letter National Olympic Committee (NOC) code for the athlete's country.
+- `games` – Specific Olympic Games the athlete participated in.
+- `year` – Year of the Olympic Games the athlete participated in.
+- `season` – "Summer" or "Winter" Olympics.
+- `city` – The host city of the Olympics.
+- `sport` – The sport the athlete competed in.
+- `event` – Specific event within that sport (e.g., "Volleyball Men's Volleyball").
+- `medal` – Type of medal won by the athlete (Gold, Silver, Bronze, or `NaN` if no medal was won).
+
 ## Reason for Choosing
 ##sami is writing this now
 
