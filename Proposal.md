@@ -1,18 +1,15 @@
 # Dataset Description
 ## Olympics Dataset Description
-
-## Dataset Source
 One dataset being used is the `olympics.csv`, downloaded from TidyTuesdays (Harmon, 2024). The description is as follows:
 
-## Provenance
+### Provenance
 - The data is sourced from **120 years of Olympic history: athletes and results** on Kaggle (Griffin, 2018). Since the Olympics resurfaced in 2024, the dataset is an intentional repeat of the `olympics.csv` uploaded in 2021 (Harmon, 2021).
 - This dataset was scraped and wrangled from [www.sports-reference.com](https://www.sports-reference.com) in May 2018 and includes basic athlete data and medal results from Athens 1896 to Rio 2016.
 
-## Dimensions
-- **Columns:** 15  
-- **Rows:** 271,116  
+### Dimensions
+- **Columns:** 15, **Rows:** 271,116  
 
-## Description
+### Description
 For each Olympic participant from 1896 until 2016, the dataset records the ID number, sex, age, height, weight, team, National Olympic Committee (NOC), games, year, season, city, sport, event, and medals (if won). It accounts for the Winter and Summer Games being held in the same year until they started being staggered from 1994.  
 
 ### **Column Descriptions:**
