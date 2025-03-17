@@ -30,7 +30,7 @@ For each Olympic participant from 1896 until 2016, the dataset records the ID nu
 - `city` – The host city of the Olympics.
 - `sport` – The sport the athlete competed in.
 - `event` – Specific event within that sport (e.g., "Volleyball Men's Volleyball").
-- `medal` – Type of medal won by the athlete (Gold, Silver, Bronze, or `NaN` if no medal was won).
+- `medal` – Type of medal won by the athlete (Gold, Silver, Bronze, or NaN if no medal was won).
 ## Reason for Choosing
 ##sami is writing this now
 
