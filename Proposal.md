@@ -1,6 +1,5 @@
 # Dataset Description
-## Brief Context
-# Olympics Dataset Description
+## Olympics Dataset Description
 
 ## Dataset Source
 One dataset being used is the `olympics.csv`, downloaded from TidyTuesdays (Harmon, 2024). The description is as follows:
@@ -32,7 +31,6 @@ For each Olympic participant from 1896 until 2016, the dataset records the ID nu
 - `sport` – The sport the athlete competed in.
 - `event` – Specific event within that sport (e.g., "Volleyball Men's Volleyball").
 - `medal` – Type of medal won by the athlete (Gold, Silver, Bronze, or `NaN` if no medal was won).
-
 ## Reason for Choosing
 ##sami is writing this now
 
