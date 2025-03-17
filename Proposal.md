@@ -41,7 +41,7 @@ The second dataset is Countries GDP 1960-2020.csv downloaded from Kaggle (Christ
 - 120 rows
 
 ### Description: 
-- The dataset contains country/region names, country codes (3 letter code) and Gross Domestic Product (GDP) data for every year from 1960 until 2020 (60-year period). 
+- The dataset contains country/region names, country codes (3 letter code) and Gross Domestic Product (GDP) data for every year from 1960 until 2020 (60-year period) - equalling 63 columns.
 - Gross Domestic Product (GDP) represents the total value added by all resident producers in an economy, measured at purchaser’s prices. It is calculated as the sum of gross value added by all producers, including product taxes, while subtracting any subsidies on products. 
 - Depreciation (consumption of fixed capital) and transport charges are not considered in GDP calculations.
 - It uses annual gross domestic income for that year in USD that were converted from domestic currencies using single year official exchange rates, or an alternative conversion factor if required.
