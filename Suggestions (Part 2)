@@ -1,0 +1,21 @@
+# Project 1 – Suggestions for Other Groups Draft (Part 2)
+
+## Peer Review for Proposal - PROJECT01-6 for PROJECT01-8
+
+### Constructive Suggestions:
+1. Include the dimensions of the dataset (number of rows and columns).
+2. Specify the currency and its units (e.g., USD in hundreds or thousands).
+3. The questions you have chosen are very broad. How will you make them more specific to ensure they can achievably be answered?  
+   - For example, focus on one or a few specific companies and one or a few specific events so the data can be visualized effectively.
+
+---
+
+## Peer Review for Proposal - PROJECT01-6 for PROJECT01-12
+
+### Constructive Suggestions:
+1. For plan number 1, consider making the visualizations interactive.  
+   - Example: Selecting the rock genre could display a box plot of how many rock albums were released per year from 2003-2020. Clicking on a year could then show a ranking of the most popular rock artists for that year.
+2. For plan number 1, consider color-coding the differential values in the visualization.  
+   - Example: Use red for positive values (album's rank dropped) and green for negative values (album's rank improved). This would make it easier to spot trends in ranking changes across genres and release years.
+3. The songs in the dataset were significantly more popular before Spotify’s release.  
+   - You could find another dataset with information on physical sales (vinyl, CDs, and cassettes) for those songs and compare their historical sales to their current Spotify streams to analyze changes in music consumption over time.
