@@ -52,10 +52,9 @@ The Olympics is very fun to watch and brings the whole world together through ou
 # Questions to be answered
 **I.** How have the average age, height, and weight of Olympic athletes changed over the years across different sports or by gender?
 - **Primary Variables (dependent variables):**
-	- `age`: Numeric (age of athletes)
-	- `height`: Numeric (height of athletes)
-	- `weight`: Numeric (weight of athletes)
-        
+	- `height` and `weight`: Numeric (height and weight of athletes). This will be combined into BMI (Numeric).
+	- `medal`: Categorical (Gold/Silver/Bronze)
+
 -   **Grouping Variables (independent variables):**
     -   `year`: Numeric (Olympic year, useful for analyzing trends over time
     -   `sport`: Categorical (different sports categories to examine specific trends)
@@ -79,10 +78,18 @@ The Olympics is very fun to watch and brings the whole world together through ou
         
 	3.  **Trend Analysis:**
 	-  Visualize and interpret changes across years.
-	    - Drop down application where user can select a sport
-     - y axis is year
-     - one graph: bmi vs age per sport
-     - second graph: bmi vs age per sport
+   
+	    - Drop down filtering by sports and Olympics season.
+       
+        -  Use line graph for trends over the years
+          
+            - X-axis: Year
+              
+            - Y-axis: BMI value
+         
+            - We will have 3 lines for each medal type
+              
+            - Each dropdown subplot will contain a graph for each gender.	
 	    
 **II.** How has hosting the Olympics affected the host country's GDP?
 -  **Datasets Involved:**
@@ -99,8 +106,6 @@ The Olympics is very fun to watch and brings the whole world together through ou
 		-   `year`: Year when the Olympics were held.
     
 		-   `city`: Host city of the Olympics.
-    
-		-   `team` and `noc`: Information to identify the host country.
     
 
 	- **GDP dataset:**
@@ -131,7 +136,7 @@ The Olympics is very fun to watch and brings the whole world together through ou
  
 	5.  **Visualization & Interpretation:**
     
-	    -   Create visualizations (e.g., line plots, bar charts) to illustrate GDP trends around Olympic events clearly.
+	    -   Create a combination of a line plot and a bar chart to illustrate GDP trends around Olympic events clearly.
 
 ## References  
 
