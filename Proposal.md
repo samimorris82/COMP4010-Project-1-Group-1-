@@ -78,7 +78,11 @@ The Olympics is very fun to watch and brings the whole world together through ou
 	    -   Further segmentation by `sport` and/or `sex`.
         
 	3.  **Trend Analysis:**
-	    -   Visualize and interpret changes across years.
+	-  Visualize and interpret changes across years.
+	    - Drop down application where user can select a sport
+     - y axis is year
+     - one graph: bmi vs age per sport
+     - second graph: bmi vs age per sport
 	    
 **II.** How has hosting the Olympics affected the host country's GDP?
 -  **Datasets Involved:**
