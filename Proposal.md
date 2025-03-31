@@ -41,7 +41,7 @@ The second dataset is Countries GDP 1960-2020.csv downloaded from Kaggle (Christ
 - 120 rows
 
 ### Description 
-- The dataset contains country/region names, country codes (3 letter code) and Gross Domestic Product (GDP) data for every year from 1960 until 2020 (60-year period) - equalling 63 columns.
+- The dataset contains country/region names, country codes (3 letter code) and Gross Domestic Product (GDP) data for every year from 1960 until 2016 (60-year period) - equalling 63 columns.
 - Gross Domestic Product (GDP) represents the total value added by all resident producers in an economy, measured at purchaser’s prices. It is calculated as the sum of gross value added by all producers, including product taxes, while subtracting any subsidies on products. 
 - Depreciation (consumption of fixed capital) and transport charges are not considered in GDP calculations.
 - It uses annual gross domestic income for that year in USD that were converted from domestic currencies using single year official exchange rates, or an alternative conversion factor if required.
@@ -94,7 +94,7 @@ The Olympics is very fun to watch and brings the whole world together through ou
 **II.** How has hosting the Olympics affected the host country's GDP?
 -  **Datasets Involved:**
 
-	-   **Olympics dataset:** contains details about Olympic host cities and years (`year`, `city`, `team`, `noc`).
+	-   **Olympics dataset:** contains details about Olympic host cities and years (`year`, `city`, `country`).
     
 	-   **GDP dataset:** provides GDP data for various countries from 1960 to 2020.
     
@@ -105,12 +105,12 @@ The Olympics is very fun to watch and brings the whole world together through ou
 
 		-   `year`: Year when the Olympics were held.
     
-		-   `city`: Host city of the Olympics.
+		-   `city`: Host city of the Olympics, which needs to be used to create a new column for the host country  `country`
     
 
 	- **GDP dataset:**
 
-		-   `Country Name` and `Country Code`: Identifies the country.
+		-   `Country Name` and `Country Code` (if necessary): Identifies the country.
     
 		-   Annual GDP data (columns 1960–2020): GDP figures corresponding to Olympic event years and surrounding years.
 
