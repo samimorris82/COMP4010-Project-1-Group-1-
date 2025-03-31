@@ -50,34 +50,34 @@ The second dataset is Countries GDP 1960-2020.csv downloaded from Kaggle (Christ
 The Olympics is very fun to watch and brings the whole world together through our shared love for sport and competition. We thought it would be interesting to analyse the history of people and countries who have achieve highly in worldwide sports, and compare this with GDP. This will help us uncover trends between datasets and the different column variables in the olympics.csv.
 
 # Questions to be answered
-## I. "What are the medal-winning trends of selected countries across different Olympic Games?" ##
+**I.** "What are the medal-winning trends of selected countries across different Olympic Games?" 
 
-## 1. Stacked Bar Chart (Graph 1): Number of Medals Won (Gold, Silver, Bronze) per Country
-- **Goal**: Display the number of medals (Gold, Silver, and Bronze) won by each country.
-- **x-axis**: Countries (based on the "team" column, which identifies the athlete's country).
-- **y-axis**: Number of medals won by each country, with each medal type (Gold, Silver, Bronze) stacked.
-- **Features**:
-  - **Drop-downs**:
-    - Select countries desired for display.
-    - Choose ascending or descending order based on the total number of medals or any other metric.
-  - **Additional Information on Hover**:
-    - Displays the medal type, country, and the sum of each medal type for that country.
+- **1.Stacked Bar Chart (Graph 1): Number of Medals Won (Gold, Silver, Bronze) per Country**
+	- **Goal:** Display the number of medals (Gold, Silver, and Bronze) won by each country.
+	- **x-axis:** Countries (based on the "team" column, which identifies the athlete's country).
+	- **y-axis:** Number of medals won by each country, with each medal type (Gold, Silver, Bronze) stacked.
+	- **Features:**
+	  - Drop-downs:
+	    - Select countries desired for display.
+	    - Choose ascending or descending order based on the total number of medals or any other metric.
+	  - Additional Information on Hover:
+	    - Displays the medal type, country, and the sum of each medal type for that country.
 
-## 2. Line Chart (Graph 2): Medal Winning Trend per Game for a Selected Country
-- **Goal**: Show the trend of medal wins for a specific country over the different Olympic Games.
-- **x-axis**: Represents Olympic Games and years (could be Summer or Winter).
-- **y-axis**: Displays the total number of medals won by a country selected from the bar chart in Graph 1.
-- **Features**:
-  - **Additional Information on Hover**:
-    - Displays specific Olympic game (e.g., Summer or Winter), the year and host city, and the number of medals won by the selected country during that game.
+- **2. Line Chart (Graph 2): Medal Winning Trend per Game for a Selected Country**
+	- **Goal:** Show the trend of medal wins for a specific country over the different Olympic Games.
+	- **x-axis:** Represents Olympic Games and years (could be Summer or Winter).
+	- **y-axis:** Displays the total number of medals won by a country selected from the bar chart in Graph 1.
+	- Features:
+	  - Additional Information on Hover:
+	    - Displays specific Olympic game (e.g., Summer or Winter), the year and host city, and the number of medals won by the selected country during that game.
 
-## 3. Stacked Bar Plot (Graph 3): Top 10 Athletes for Selected Country and Game
-- **Goal**: Show the top 10 athletes from a selected country, sorted by the number of medals they won in a particular Olympic game.
-- **x-axis**: Athlete's name.
-- **y-axis**: Number of medals each athlete won (stacked by medal type).
-- **Features**:
-  - **Additional Information on Hover**:
-    - Displays athlete name, medal type, and the number of medals won.
+- **3. Stacked Bar Plot (Graph 3): Top 10 Athletes for Selected Country and Game**
+	- **Goal:** Show the top 10 athletes from a selected country, sorted by the number of medals they won in a particular Olympic game.
+	- **x-axis:** Athlete's name.
+	- **y-axis:** Number of medals each athlete won (stacked by medal type).
+	- Features:
+	  - Additional Information on Hover:
+	    - Displays athlete name, medal type, and the number of medals won.
 
 	    
 **II.** How has hosting the Olympics affected the host country's GDP?
