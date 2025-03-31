@@ -50,46 +50,35 @@ The second dataset is Countries GDP 1960-2020.csv downloaded from Kaggle (Christ
 The Olympics is very fun to watch and brings the whole world together through our shared love for sport and competition. We thought it would be interesting to analyse the history of people and countries who have achieve highly in worldwide sports, and compare this with GDP. This will help us uncover trends between datasets and the different column variables in the olympics.csv.
 
 # Questions to be answered
-**I.** How have the average BMI values of Olympic athletes changed over the years across different sports or by gender?
-- **Primary Variables (dependent variables):**
-	- `height` and `weight`: Numeric (height and weight of athletes). This will be combined into BMI (Numeric).
-	- `medal`: Categorical (Gold/Silver/Bronze)
+## I. "What are the medal-winning trends of selected countries across different Olympic Games?" ##
 
--   **Grouping Variables (independent variables):**
-    -   `year`: Numeric (Olympic year, useful for analyzing trends over time
-    -   `sport`: Categorical (different sports categories to examine specific trends)
-    -   `sex`: Categorical (gender-based comparisons: Male vs. Female athletes)
-        
--   **Additional (contextual) Variables:**
-    -   `season`: Categorical (Summer/Winter), useful for distinguishing trends between seasonal Olympics if needed.
- 
--  **Planned Analysis Steps:**
-	1. Data Cleaning:
-    
-	    -   Handle missing values in `height`, and `weight`.
-        
-	    -   Ensure consistency and accuracy of data.
-        
-	2.  **Aggregation:**
-    
-	    -   Calculate average `BMI` by `year`.
-        
-	    -   Further segmentation by `sport` and/or `sex`.
-        
-	3.  **Trend Analysis:**
-	-  Visualize and interpret changes across years.
-   
-	    - Drop down filtering by sports and Olympics season.
-       
-        -  Use line graph for trends over the years
-          
-            - X-axis: Year
-              
-            - Y-axis: BMI value
-         
-            - We will have 3 lines for each medal type
-              
-            - Each dropdown subplot will contain a graph for each gender.	
+## 1. Stacked Bar Chart (Graph 1): Number of Medals Won (Gold, Silver, Bronze) per Country
+- **Goal**: Display the number of medals (Gold, Silver, and Bronze) won by each country.
+- **x-axis**: Countries (based on the "team" column, which identifies the athlete's country).
+- **y-axis**: Number of medals won by each country, with each medal type (Gold, Silver, Bronze) stacked.
+- **Features**:
+  - **Drop-downs**:
+    - Select countries desired for display.
+    - Choose ascending or descending order based on the total number of medals or any other metric.
+  - **Additional Information on Hover**:
+    - Displays the medal type, country, and the sum of each medal type for that country.
+
+## 2. Line Chart (Graph 2): Medal Winning Trend per Game for a Selected Country
+- **Goal**: Show the trend of medal wins for a specific country over the different Olympic Games.
+- **x-axis**: Represents Olympic Games and years (could be Summer or Winter).
+- **y-axis**: Displays the total number of medals won by a country selected from the bar chart in Graph 1.
+- **Features**:
+  - **Additional Information on Hover**:
+    - Displays specific Olympic game (e.g., Summer or Winter), the year and host city, and the number of medals won by the selected country during that game.
+
+## 3. Stacked Bar Plot (Graph 3): Top 10 Athletes for Selected Country and Game
+- **Goal**: Show the top 10 athletes from a selected country, sorted by the number of medals they won in a particular Olympic game.
+- **x-axis**: Athlete's name.
+- **y-axis**: Number of medals each athlete won (stacked by medal type).
+- **Features**:
+  - **Additional Information on Hover**:
+    - Displays athlete name, medal type, and the number of medals won.
+
 	    
 **II.** How has hosting the Olympics affected the host country's GDP?
 -  **Datasets Involved:**
