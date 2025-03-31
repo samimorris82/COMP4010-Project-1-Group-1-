@@ -50,7 +50,7 @@ The second dataset is Countries GDP 1960-2020.csv downloaded from Kaggle (Christ
 The Olympics is very fun to watch and brings the whole world together through our shared love for sport and competition. We thought it would be interesting to analyse the history of people and countries who have achieve highly in worldwide sports, and compare this with GDP. This will help us uncover trends between datasets and the different column variables in the olympics.csv.
 
 # Questions to be answered
-**I.** How have the average age, height, and weight of Olympic athletes changed over the years across different sports or by gender?
+**I.** How have the average BMI values of Olympic athletes changed over the years across different sports or by gender?
 - **Primary Variables (dependent variables):**
 	- `height` and `weight`: Numeric (height and weight of athletes). This will be combined into BMI (Numeric).
 	- `medal`: Categorical (Gold/Silver/Bronze)
@@ -66,13 +66,13 @@ The Olympics is very fun to watch and brings the whole world together through ou
 -  **Planned Analysis Steps:**
 	1. Data Cleaning:
     
-	    -   Handle missing values in `age`, `height`, and `weight`.
+	    -   Handle missing values in `height`, and `weight`.
         
 	    -   Ensure consistency and accuracy of data.
         
 	2.  **Aggregation:**
     
-	    -   Calculate average age, height, and weight by `year`.
+	    -   Calculate average `BMI` by `year`.
         
 	    -   Further segmentation by `sport` and/or `sex`.
         
