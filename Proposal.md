@@ -126,8 +126,7 @@ The Olympics is very fun to watch and brings the whole world together through ou
         
 	3.  **Impact Assessment:**
     
-	    -   Extract GDP data for host countries several years before and after hosting.
-        
+	    -   Extract GDP data for host countries several years before and after hosting
 	    -   Analyze changes in GDP (growth rates or absolute changes) relative to the Olympic hosting year.
         
 	4.  **Comparative Analysis:**
@@ -136,7 +135,9 @@ The Olympics is very fun to watch and brings the whole world together through ou
  
 	5.  **Visualization & Interpretation:**
     
-	    -   Create a combination of a line plot and a bar chart to illustrate GDP trends around Olympic events clearly.
+	    -   We intend to use an interactive world map to visualize our data
+            -   For the countries available in the dataset, we will allow on-click interaction and generate the corresponding GDP line chart of that country during the 1960-2020 period.
+            -   The graph will also highlight the year(s) that the country hosted an Olympics event
 
 ## References  
 
