@@ -50,7 +50,7 @@ The second dataset is Countries GDP 1960-2020.csv downloaded from Kaggle (Christ
 The Olympics is very fun to watch and brings the whole world together through our shared love for sport and competition. We thought it would be interesting to analyse the history of people and countries who have achieve highly in worldwide sports, and compare this with GDP. This will help us uncover trends between datasets and the different column variables in the olympics.csv.
 
 # Questions to be answered
-**I.** "What are the medal-winning trends of selected countries across different Olympic Games?" 
+**I.** What are the medal-winning trends of selected countries across different Olympic Games?
 
 - **1.Stacked Bar Chart (Graph 1): Number of Medals Won (Gold, Silver, Bronze) per Country**
 	- **Goal:** Display the number of medals (Gold, Silver, and Bronze) won by each country.
