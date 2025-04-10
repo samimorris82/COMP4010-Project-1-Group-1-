@@ -17,22 +17,39 @@ This question was answered by being broken down into four graphs. The first is a
 
 The user will then click on the medals from one country they want to investigate further. A stacked barplot was chosen for this Olympics data visualisation because it effectively displays the total number of medals won by each country and the breakdown by medal type (gold, silver, and bronze) in a single intuitive view. A line plot would not be effective here because it is more useful for showing trends over time rather than categorical comparisons. Similarly, a boxplot highlights data spread like medians and outliers, which is not the focus of this visualisation. The goal here is to compare quantities and compositions of medals across countries, which the stacked barplot does clearly and efficiently.
 
+<img width="897" alt="Screenshot 2025-04-10 at 10 06 09 pm" src="https://github.com/user-attachments/assets/eb009262-ce52-438a-b063-90bdd4d82121" />
+<img width="870" alt="Screenshot 2025-04-10 at 10 02 32 pm" src="https://github.com/user-attachments/assets/8d88b1d1-f351-43ba-9273-0d159981b7a3" />
+
 
 The second graph is a line plot that uses this input to show the total medals won by that one country over the Summer and Winter Olympics from 1960-2016. By hovering over one of the dots, the user can see further details including the Olympic game edition, the number of medals won during that game, the host country, and city. The country Romania was selected for the following example of graph 2. The user will then click on one Olympic game for that country (Romania in this example) where they would like to investigate the medal winners further. A line plot was the type of graph chosen because it effectively visualises trends and patterns in continuous data. It helps us see the rises and falls of Romania’s performance in the Olympics, helping identify long-term performance trends including peaks and declines.
 
+<img width="893" alt="Screenshot 2025-04-10 at 10 01 31 pm" src="https://github.com/user-attachments/assets/606bab24-066a-4af6-b9c5-76af69af74c5" />
 
 By using the same country from graphs 1 and 2, and selecting a specific Olympic Games edition in graph 2, a third graph is generated in the application. This third graph highlights the top individual medal winners (up to 10 athletes) from that country during the selected Olympics. The example below shows the top 10 medal winners from Romania in the 1980 Summer Olympics. A stacked barplot is used to represent the number and types of medals (gold, silver, and bronze) each athlete won. The bars are organised by medal type and quantity, making it easy to compare the performance results of different athletes. This plot provides a more detailed and athlete-focused perspective on a country’s success, extending upon the medal trends shown in the earlier graphs. A stacked barplot was chosen because one chart visualises medals by type (gold, silver, bronze) for each athlete, making it easy to compare how many medals each athlete won and what kinds of medals they earned. Other charts, like a scatterplot or boxplot, would not suitably show this information because they will not effectively show totals and comparisons, they are better for quantitative analysis.
 
+<img width="879" alt="Screenshot 2025-04-10 at 10 03 47 pm" src="https://github.com/user-attachments/assets/0bf2923e-cdd9-4fc3-9695-9c8d3443ec1f" />
 
 Additionally, a table was made listing all the athletes that won medals from the specific country and Olympic games to show the user more information. This table displays each athlete’s name, the number of each medal type won, and the total medal count for that Olympic game. It allows users to explore the data further which is not displayed in the barplot and the tabular format offers a precise, text-based summary, instead of a visual summary.
+
+<img width="880" alt="Screenshot 2025-04-10 at 10 04 08 pm" src="https://github.com/user-attachments/assets/15a19caa-26bd-4cee-bcec-dd61bde4b301" />
 
 
 ### Analysis (plots are shown in Approach section): 
 Here is a copy of the code used for the graphs within the app. Data cleaning code is included within project 1-q1-final.ipynb. 
 
+<img width="811" alt="Screenshot 2025-04-10 at 10 08 42 pm" src="https://github.com/user-attachments/assets/101fb545-794f-4897-85c9-088b0b847c1b" />
+<img width="676" alt="Screenshot 2025-04-10 at 10 04 52 pm" src="https://github.com/user-attachments/assets/3fcf17b7-7bb8-455c-a334-9e96498371f6" />
+<img width="722" alt="Screenshot 2025-04-10 at 10 05 03 pm" src="https://github.com/user-attachments/assets/41184308-676a-404b-a0fb-f459b4913bb4" />
+<img width="877" alt="Screenshot 2025-04-10 at 10 05 14 pm" src="https://github.com/user-attachments/assets/e9f159e2-4fa2-421e-976e-ea4c0eeddc6e" />
+<img width="586" alt="Screenshot 2025-04-10 at 10 05 21 pm" src="https://github.com/user-attachments/assets/7496767f-e2e2-4b3e-bd17-dc5fde102984" />
+
 
 ### Discussion
 Since the olympic.csv dataset includes all countries that participated in the Summer and Winter Olympics from 1960 to 2020, it contains a large volume of data. Therefore, this discussion will focus on analysing the performance trends of a range of countries: the top performer United States; high-to-mid achievers Germany, Russia, and China; and lower-performing nations such as India and Vietnam, as an example comparison.
+
+<img width="887" alt="Screenshot 2025-04-10 at 10 10 58 pm" src="https://github.com/user-attachments/assets/61b96767-0258-43cb-9203-6b621e0513d5" />
+<img width="1067" alt="Screenshot 2025-04-10 at 10 16 32 pm" src="https://github.com/user-attachments/assets/b4ba4b01-7656-44c6-afd3-9ac1b473c5b3" />
+
 
 Our graph comparing the medal counts of the different countries shows the UnitesStates stands out as the dominant high performer with 3,608 medals. The medal type distribution is balanced, with the highest amount being hold medals, which highlights consistent excellence across different olympics and time periods. Germany (1,479 medals), Russia (1,132 medals), and China (985 medals) form the group of high-to-mid achievers. Germany leads this group, with a strong and even spread across all medal types, while Russia and China follow with slightly lower totals. Further analysis of how these countries perform in the Winter versus Summer Olympics over time could provide deeper insight, particularly since countries like Russia may have a natural advantage in Winter sports due to their cold climate.In contrast, India (88 medals) and Vietnam (4 medals) were selected as examples of lower-performing countries. Despite their large populations, both nations show relatively low medal counts. This may be due to limited sports infrastructure, insufficient funding, and a weaker national sports culture, which can hinder athlete development and international competitiveness, but further investigation is required to confirm this impact.
 
@@ -40,7 +57,11 @@ The second graph analyses the total medals won over the different Olympics, and 
 
 The Summer Olympics hosts more athletic events than Winter Olympics, awarding approximately 1080 medals per Olympic Games compared to 327 for the Winter Olympics. These results cause the line graphs for every country to fluctuate up and down significantly, instead of showing a smooth trend. In the examples below, Germany peaked in medal winnings during the 1992 Summer Olympics, 2004 Summer Olympics and 2016 Summer Olympics. After Germany’s reunification in 1990, West and East Germany competed as a unified team for the first time in the 1992 Summer Olympics. In the post-Cold War era, sport helped foster national identity and unity within Germany, influencing their increased performance success. While India has participated in the Winter Olympics, they have never won any medals in those events, which is why no Winter Olympic data appears on the x-axis of the graph. Historically, India won between 13 to 16 medals per Games during the 1960–1980 period, largely driven by dominance in field hockey. However, post-1980, medal counts declined sharply to just 1–6 per Olympic Games. This drop can be attributed to several factors, including a cultural shift in national sports preference toward cricket, along with reduced investment in sports infrastructure and elite athlete development. These examples underscore how political, economic, and cultural factors deeply influence Olympic success over time and should be investigated further.
 
+<img width="888" alt="Screenshot 2025-04-10 at 10 11 31 pm" src="https://github.com/user-attachments/assets/acc08967-a3c2-40f3-abc4-9e4452ed03c1" />
+<img width="875" alt="Screenshot 2025-04-10 at 10 12 11 pm" src="https://github.com/user-attachments/assets/b95f9de7-c9bd-4165-9ee7-5d052765a411" />
 
 Focusing on Germany’s wins during the 1992 Summer Olympic games, graph 3 displays the top 10 athletes who competed. The stacked bar plot presents Franziska van Almsick as the winner of the highest amount of medals - two silver and two bronze. Andreas Wecker, Dagmar Hase, and Daniela Hunger each won three medals each with a combination of different medal types. The remaining athletes earned two medals, with gold being the most common. Kay Bluhm, Nicole Uphoff-Becker and Torsten Ren Gutsche each won two gold medals, which is a lower quantity than other athletes but higher achievement. The success of athletes can be compared overtime by selecting different Olympic games from graph 2 and viewing their medal achievements in graph 3. In conclusion, the graphs created for question 1 offer a variety of insights that could be further explored by comparing athletes and countries, and contextualized with physiological, climate, economic, political, and policy data over time to better understand trends in athletic success. 
 
+<img width="878" alt="Screenshot 2025-04-10 at 10 12 57 pm" src="https://github.com/user-attachments/assets/7ca29af2-9a22-4eb2-9d3d-92ae1349c2a4" />
+<img width="883" alt="Screenshot 2025-04-10 at 10 13 07 pm" src="https://github.com/user-attachments/assets/d3e03137-343a-47e8-92d9-b10f7984a6cb" />
 
